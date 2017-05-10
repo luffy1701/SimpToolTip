@@ -1,0 +1,54 @@
+.sample-form {
+  display: block;
+  padding: 10px;
+  background: white;
+}
+
+.sample-form input {
+  display: block;
+  margin: 5px 0;
+  padding: 5px 10px;
+}
+
+.sample-form input {
+  width: 200px;
+  font-size: 14px;
+}
+
+.sample-form button {
+  font-size: 16px;
+}
+
+.sample-form .inputValidation-error {
+  background: #C00;
+  border-radius: 3px;
+  font-size: 11px;
+  color: #FFF;
+  line-height: 16px;
+  padding: 4px 5px 5px;
+  position: absolute;
+  margin: -33px 0 0 0;
+  display: none;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* tool-tip */
+.toolTip {
+  background: #000;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  color: #FFF;
+  font-size: 10px;
+  line-height: 12px;
+  padding: 5px 10px;
+  position: absolute;
+  z-index: 9999;
+  min-width: 100px;
+  max-width: 160px;
+  display: none;
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+}

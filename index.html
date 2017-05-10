@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Form validation test</title>
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="formValidation.js"></script>
+    <script src="tooltip.js"></script>
+    <link rel="stylesheet" href="index.css" >
+  </head>
+  <body>
+    <form action="#" method='post' class='sample-form'>
+      <span>
+        <input type='text' data-type='alphanumeric-extended' placeholer='name' required >
+      </span>
+      <span>
+        <input type="text" data-type="alphanumeric" name="username" placeholder="Username" required>
+      </span>
+      <span>
+        <input type='email' name='email' placeholer='Email' required >
+      </span>
+      <button type='submit' name='signup'>Signup!</button>
+    </form>
+
+    <h1 data-tooltip="This is a tooltip">Title with tooltip</h1>
+    <p title="this is p tag using the tooltip library">This is same text</p>
+    <p data-tooltip="Looks Awesome,  right?" data-tooltip-position="below">This one has a positioned one,  below this very descriptive text.</p>
+  </body>
+</html>
